@@ -1,0 +1,63 @@
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'M PLUS 1', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body {
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 0px;
+}
+
+.navbar {
+  background-color: rgb(1, 4, 17);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brand-name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 50px;
+  padding: 10px;
+  width: 800px;
+}
+
+.nav-link {
+  color: #fff;
+  display: flex;
+  text-align: center;
+  column-gap: 50px;
+  list-style-type: none;
+}
+
+.nav-links-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+}
+
+.dots a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 26px;
+}
