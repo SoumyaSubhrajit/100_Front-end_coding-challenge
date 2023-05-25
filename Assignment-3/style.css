@@ -5,5 +5,40 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
+  background: linear-gradient(#191430, #45265b);
 }
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.6);
+  background-color: rgb(125, 164, 203);
+  background: linear-gradient(#72afcb, #3f59a7);
+}
+
+.user-box {
+  position: relative;
+}
+
+.user-box input {
+}
+
+/* 
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+} */
