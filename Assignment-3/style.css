@@ -47,7 +47,7 @@ body {
   outline: none;
 }
 
-.user label {
+.user-box label {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,16 +59,6 @@ body {
   transition: 0.5s;
 }
 
-.login-box .user-box label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: none;
-  transition: 0.5s;
-}
 /* 
 IT HAPPEN WHEN I CLICK THE BUTTON AND THEN IT APPEND UPWARDS.... */
 
@@ -78,10 +68,6 @@ IT HAPPEN WHEN I CLICK THE BUTTON AND THEN IT APPEND UPWARDS.... */
   left: 0px;
   color: #deb1ff;
   font-size: 12px;
-}
-
-.login-box a:hover {
-  fill: #bcaefc;
 }
 
 .btn {
@@ -111,4 +97,10 @@ IT HAPPEN WHEN I CLICK THE BUTTON AND THEN IT APPEND UPWARDS.... */
   border-radius: 10px;
   box-shadow: 0 0 5px #ab99ff, 0 0 15px #ab99ff, 0 0 30px #ab99ff,
     0 0 70px #ab99ff;
+}
+
+@media screen and (min-width: 730px) {
+  .login-box {
+    max-width: 1000px;
+  }
 }
