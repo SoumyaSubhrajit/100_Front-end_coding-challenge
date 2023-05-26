@@ -14,13 +14,21 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  padding: 40px;
+  height: 480px;
+  padding: 60px;
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.6);
-  background-color: rgb(125, 164, 203);
-  background: linear-gradient(#72afcb, #3f59a7);
+  background-color: #312954;
+  /* background: linear-gradient(#211a3f, #543869); */
+}
+.login-txt {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 60px;
 }
 
 .user-box {
@@ -30,11 +38,77 @@ body {
 .user-box input {
   width: 100%;
   padding: 10px 0px;
+  font-size: 17px;
   color: #fff;
-  margin-bottom: 30px;
-  font-size: 18px;
+  margin-bottom: 50px;
   border: none;
-  outline: none;
-  background: transparent;
   border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+}
+
+.user label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 50px;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+/* 
+IT HAPPEN WHEN I CLICK THE BUTTON AND THEN IT APPEND UPWARDS.... */
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0px;
+  color: #deb1ff;
+  font-size: 12px;
+}
+
+.login-box a:hover {
+  fill: #bcaefc;
+}
+
+.btn {
+  width: 80px;
+  padding: 23px;
+  border-radius: 10px;
+  /* background-color: #bcaefc; */
+  background: transparent;
+  border: 1px solid #ab99ff;
+  margin-top: 27px;
+  margin-left: 80px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #ab99ff;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ab99ff, 0 0 15px #ab99ff, 0 0 30px #ab99ff,
+    0 0 70px #ab99ff;
 }
