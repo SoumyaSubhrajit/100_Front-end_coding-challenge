@@ -10,10 +10,29 @@
 }
 
 .item {
-  color: black;
+  color: rgb(51, 51, 51);
   background-color: #f1f1f1;
   padding: 10px;
   box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: ro;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+/* .item h2 {
+  /* IT LOWER THE DISTANCE BETWEEN THE HEADING AND THE PARAGRAPH */
+  margin-bottom: -5px;
+} */
+
+.item p {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  /* text-justify: inter-word; */
+  text-indent: 0em;
 }
