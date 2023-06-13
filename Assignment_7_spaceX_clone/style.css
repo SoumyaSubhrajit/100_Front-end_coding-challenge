@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+svg {
+  fill: #fff;
+}
+
+.logo {
+  width: 160px;
+}
